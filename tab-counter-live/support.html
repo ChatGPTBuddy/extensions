@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support &middot; Tab Counter Live</title>
+<meta name="description" content="Support page for the Tab Counter Live Chrome Extension.">
+<style>
+:root {
+  --c-bg: #ffffff;
+  --c-fg: #0f172a;
+  --c-muted: #475569;
+  --c-accent: #4f46e5;
+  --c-border: #e2e8f0;
+  --c-card: #f8fafc;
+  --w-max: 760px;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background: var(--c-bg);
+  color: var(--c-fg);
+  line-height: 1.6;
+  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
+}
+.container { max-width: var(--w-max); margin: 0 auto; padding: 48px 24px 80px; }
+header { display: flex; align-items: center; gap: 18px; margin-bottom: 8px; }
+header img { width: 56px; height: 56px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+header .titleblock h1 { font-size: 26px; margin: 0; font-weight: 700; letter-spacing: -0.02em; }
+header .titleblock p { margin: 4px 0 0; color: var(--c-muted); font-size: 15px; }
+nav.crumbs { font-size: 14px; color: var(--c-muted); margin: 28px 0 12px; }
+nav.crumbs a { color: var(--c-accent); text-decoration: none; }
+nav.crumbs a:hover { text-decoration: underline; }
+h2 { font-size: 22px; margin: 36px 0 12px; font-weight: 700; letter-spacing: -0.01em; }
+h3 { font-size: 18px; margin: 28px 0 8px; font-weight: 600; }
+p { margin: 12px 0; }
+.card {
+  background: var(--c-card);
+  border: 1px solid var(--c-border);
+  border-radius: 12px;
+  padding: 18px 22px;
+  margin: 20px 0;
+}
+.muted { color: var(--c-muted); font-size: 14px; }
+.btnrow { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 20px; }
+.btn {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 8px;
+  background: var(--c-accent);
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  transition: opacity 0.15s;
+}
+.btn:hover { opacity: 0.9; }
+.btn.secondary { background: var(--c-card); color: var(--c-fg); border: 1px solid var(--c-border); }
+ul { margin: 12px 0; padding-left: 22px; }
+li { margin: 4px 0; }
+code { background: var(--c-card); padding: 2px 6px; border-radius: 4px; font-size: 14px; }
+footer {
+  margin-top: 64px;
+  padding-top: 24px;
+  border-top: 1px solid var(--c-border);
+  color: var(--c-muted);
+  font-size: 13px;
+}
+footer a { color: var(--c-muted); }
+@media (max-width: 480px) {
+  .container { padding: 32px 18px 48px; }
+  header .titleblock h1 { font-size: 22px; }
+}
+</style>
+</head><body><div class="container">
+<header>
+    <img src="./icon.png" alt="Tab Counter Live icon">
+    <div class="titleblock">
+      <h1>Tab Counter Live</h1>
+      <p>Live tab count as a badge</p>
+    </div>
+  </header>
+
+<nav class="crumbs"><a href="./index.html">Tab Counter Live</a> &rsaquo; Support</nav>
+
+<h1 style="margin:8px 0 4px;font-size:28px;font-weight:700;letter-spacing:-0.02em">Support</h1>
+<p class="muted">Get help with Tab Counter Live.</p>
+
+<h2>Common questions</h2>
+
+<h3>How do I install Tab Counter Live?</h3>
+<p>Visit the Chrome Web Store listing and click "Add to Chrome". Once installed, the extension icon appears in your browser toolbar.</p>
+
+<h3>What does Tab Counter Live do?</h3>
+<p>Counts the number of open tabs in your current Chrome window and displays the live count as a badge on the extension icon.</p>
+
+<h3>Does Tab Counter Live collect my data?</h3>
+<p>No. See the <a href="./privacy.html">Privacy Policy</a> for details.</p>
+
+<h3>The extension isn't working &mdash; what should I do?</h3>
+<ol>
+  <li>Make sure you're using the latest version of Chrome.</li>
+  <li>Try disabling and re-enabling the extension in <code>chrome://extensions</code>.</li>
+  <li>If the issue persists, <a href="mailto:fhaarman@gmail.com">email support</a> with a description of what you tried.</li>
+</ol>
+
+<h3>Can I request a feature?</h3>
+<p>Yes! Send your feature request to <a href="mailto:fhaarman@gmail.com">fhaarman@gmail.com</a>. We read every message.</p>
+
+<h2>Contact</h2>
+<div class="card">
+  <p style="margin:0"><strong>Email:</strong> <a href="mailto:fhaarman@gmail.com">fhaarman@gmail.com</a></p>
+  <p class="muted" style="margin-top:8px">Response time: usually within 2 business days.</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 ChatGPT App. Tab Counter Live is a Chrome Extension.</p>
+    <p><a href="./index.html">Home</a> &middot; <a href="./privacy.html">Privacy</a> &middot; <a href="./support.html">Support</a></p>
+  </footer>
+</div></body></html>
